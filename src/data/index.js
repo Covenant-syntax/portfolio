@@ -1,7 +1,10 @@
 import {
   algorithms,
   devnotes,
+  dmp,
+  fts,
   oscs,
+  ptf,
 } from "../assets";
 
 export const navLinks = [
@@ -25,65 +28,62 @@ export const navLinks = [
 
 const experiences = [
   {
-    title: "YouTube Content Creator",
-    company_name: "Self Employed",
-    date: "2016 - Present",
+    title: "Class Representative & Tutor",
+    company_name: "IT Center, University of Calabar",
+    date: "2024",
     details: [
-      "Built a subscriber base of over <span style='color: white;'>500,000 subscribers</span> by creating video content to help programmers.",
-      "Crafted visually appealling programming videos that have garnered over <span style='color: white;'>30,000,000 views</span>.",
-      "Produced high-quality educational and entertaining videos for clients including <span style='color: white;'>Intel, JetBrains, and MicroCenter</span>.",
+      "Assist the supervisor in tutoring fellow students on web development, ensuring a smooth learning process and a strong grasp of essential web technologies.",
+      "Organized and coordinated lectures, bridging the gap between students and instructors to facilitate seamless communication.",
     ],
   },
   {
-    title: "Software Developer",
-    company_name: "Indie",
-    date: "2019 - 2023",
+    title: "Founder & CEO",
+    company_name: "CodeFlex Web Hub",
+    date: "2024",
     details: [
-      "Developed and delivered custom interdisciplinary coding portfolio for clients including <span style='color: white;'>Nvidia, Hostinger, and Amazon</span>.",
-      "<span style='color: white;'>Designed and developed innovative</span> AI applications and interactive websites.",
-      "<span style='color: white;'>Managed full project lifecycle</span> from concept to deployment in successful and timely project completions.",
+      "Founded an all-around tech solutions company specializing in web development, SEO, software development, and consultation services.",
+      "Partnered with fellow tech experts to form a remote network of professionals offering collaborative tech solutions.",
+      "Successfully delivered services to various companies, enhancing their digital presence and functionality through tailored tech solutions.",
     ],
   },
   {
-    title: "Software Engineer",
-    company_name: "Prime 3",
-    date: "2018 - 2019",
+    title: "Web Developer",
+    company_name: "Nyanneh's Company Ltd",
+    date: "2023 - Present",
     details: [
-      "Built custom enterprise applications for a <span style='color: white;'>Fortune 500 company</span> as a full-stack software engineer.",
-      "Developed and maintained <span style='color: white;'>scalable backend services</span>, ensuring high availability for critical business applications.",
-      "<span style='color: white;'>Collaborated with a team</span> to design and implement front-end interfaces.",
+      "Collaborated with teams to develop, maintain, and update websites, ensuring high performance and user-friendly experiences.",
+      "Worked on multiple client projects, delivering tailored web solutions that align with their business needs.",
     ],
   },
   {
-    title: "Computer Science",
-    company_name: "ODU",
-    date: "2015 - 2018",
+    title: "Computer Science Student",
+    company_name: "University of Calabar",
+    date: "2022 - Present",
     details: [
-      "Built a <span style='color: white;'>computer science foundation</span> learning theory, computer architecture, and software engineering.",
-      "Worked and interned at <span style='color: white;'>NASA and Norfolk Southern Railway</span> to gain practical experience in the field of data analysis.",
-      "Acted as a member of the <span style='color: white;'>Association for Computing Machinery</span> (ACM).",
+      "Pursuing a Bachelor's degree in Computer Science with a focus on software development, algorithms, and data structures.",
+      "Gained hands-on experience in programming, web development, and software engineering through academic and extracurricular projects.",
     ],
   },
 ];
 
 const portfolio = [
   {
-    name: "Open Source Computer Science Repo",
+    name: "Feed the Street With MURPHY",
     description:
-      "A GitHub repo with over 17,000 stars containing a curated list of free online courses from reputable universities that satisfy undergraduate computer science requirements.",
-    image: oscs,
+      "A community outreach project aimed at feeding and empowering underprivileged individuals. The website provides details of the initiative, donation options, and upcoming events, offering a platform for supporters to engage and contribute to the cause.",
+    image: fts,
   },
   {
-    name: "Dev Notes",
+    name: "Dumep Classic",
     description:
-      "A newsletter with over 6,000 readers made for software developers to keep up with this rapidly evolving industry, with a sister platform in progress.",
-    image: devnotes,
+      "An e-commerce fashion website for women's bespoke clothing, featuring collections of tops, bottoms, gowns, and 2-piece sets. Customers can explore and purchase tailored outfits with a seamless shopping experience.",
+    image: dmp,
   },
   {
-    name: "Visually Understanding Algorithms",
+    name: "3D Parallax Developer Portfolio",
     description:
-      "A showcase of animated algorithms coded using TypeScript, with the video garnering over 400,000 views.",
-    image: algorithms,
+      "A stunning and simple portfolio website using React, Tailwind CSS, and Three.js for a smooth 3D parallax effect and animations. It's an excellent showcase of design aesthetics with interactive visuals and modern web technologies.",
+    image: ptf,
   },
 ];
 
